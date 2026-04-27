@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Leaf, Instagram, Mail, Phone } from "lucide-react";
+import { Leaf, InstagramIcon, Mail, Phone } from "lucide-react";
 
 export function SiteFooter() {
   return (
@@ -31,7 +31,7 @@ export function SiteFooter() {
           <ul className="mt-4 space-y-3 text-sm">
             <li className="flex items-center gap-2"><Phone className="h-4 w-4" /> (415) 555-0142</li>
             <li className="flex items-center gap-2"><Mail className="h-4 w-4" /> hello@verdantstone.co</li>
-            <li className="flex items-center gap-2"><Instagram className="h-4 w-4" /> @verdantstone</li>
+            <li className="flex items-center gap-2"><InstagramIcon className="h-4 w-4" /> @verdantstone</li>
           </ul>
         </div>
       </div>
